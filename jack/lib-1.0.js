@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
-//| Class    x                                                                    |
+//| Class    x                                                                 |
 //------------------------------------------------------------------------------
+console.log("lib-1.0.js loaded");
 class aiPaypal extends AI200 {
     constructor(name, setting) {
         super("aiPaypal_"+name);
