@@ -6347,6 +6347,8 @@ Brain2 = (class Brain2 {
         this.NOW = "NOW()";
         this.FORCE = true;
 
+		this.db = new DB3({});
+
 		this.table = this.db.table;
 
         this.loaded_format_functions = [];
